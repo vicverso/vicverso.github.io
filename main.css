@@ -1,0 +1,110 @@
+/* Custom, mobile */ 
+@media only screen and (min-width : 320px) {
+body{
+    animation: 50000ms ease-in-out infinite color-change;
+    background-image: url("topographybgb.png");
+    background-repeat: repeat;
+}
+    @keyframes color-change {
+  0% {
+    background-color: #164d34;
+  }
+  30% {
+    background-color: #14415a;
+  }
+  45% {
+    background-color: #721b0c;
+  }
+  65% {
+    background-color: #371f4a;
+  }
+  80% {
+    background-color: #4f222f;
+  }
+  100% {
+    background-color: #164d34;
+  }
+}
+a{
+	text-decoration-style:double;
+    font-family: 'Anonymous Pro', monospace;
+	color: #952906;
+    font-weight: 700;
+}
+a:hover{
+	color: papayawhip;
+}
+li, p{
+	font-family: sans-serif;
+}
+img {
+	width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    color: #102b4b;
+}
+#intro {
+        font-weight: 700;
+    }
+div{
+	width: 90%;
+}
+.header{
+	order:1;
+	width:100%;
+	margin: auto 0;
+}
+article{
+	order:2;
+}
+input{
+	width: 100%;
+}
+}
+
+@media only screen and (min-width : 768px) {
+.header{
+	order:2;
+	width:45%;
+	margin: auto 0;
+}
+div{
+	width: 75%;
+} 
+.trabalho,
+.escritor {
+	margin: 5px;
+	padding: 15px;
+}
+.flex{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-flow: row wrap;
+}
+article{
+	order: 1;
+	width: 45%;
+	margin: 5px;
+	padding: 15px;
+}
+.post{
+	width: 75%;
+	margin: 5px;
+	padding: 15px;
+}
+.images {
+	width: 45%;
+	margin: 5px;
+	padding: 15px;
+}
+.single-image{
+	width: auto;
+}
+input{
+	width: 75%;
+	padding: 15px;
+}	
