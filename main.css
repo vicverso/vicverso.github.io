@@ -1,7 +1,7 @@
 /* Custom, mobile */ 
 @media only screen and (min-width : 320px) {
 body{
-    animation: 50000ms ease-in-out infinite color-change;
+    animation: 15000ms ease-in-out infinite color-change;
     background-image: url("topographybgb.png");
     background-repeat: repeat;
 }
